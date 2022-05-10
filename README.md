@@ -2,7 +2,7 @@
 This is a application to measure how many words, lines, characters are in a text file.
 <br>
 `image` <br>
-![Calculator](Capture.PNG "TextAnalysisApp") <br>
+![TextAnalysisApp](Capture.JPG "TextAnalysisApp") <br>
 
 ## Things and Tools I Used in this project:
 <li> IntellIJ IDE </li>
