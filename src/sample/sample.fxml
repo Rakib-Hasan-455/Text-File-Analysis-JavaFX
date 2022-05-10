@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312.0" prefWidth="352.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="browseBtn" layoutX="14.0" layoutY="26.0" mnemonicParsing="false" onAction="#fileReader" prefHeight="17.0" prefWidth="77.0" text="Browse">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="pathField" layoutX="98.0" layoutY="26.0" prefHeight="30.0" prefWidth="234.0" />
+        <Button fx:id="analysisBtn" layoutX="15.0" layoutY="64.0" mnemonicParsing="false" onAction="#fileAnalyzer" prefHeight="30.0" prefWidth="317.0" text="Analysis">
+            fx:controller="sample.Controller
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="resultField" layoutX="34.0" layoutY="105.0" prefHeight="160.0" prefWidth="279.0" style="-fx-background-color: black;">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+        <Label fx:id="statusLebel" layoutX="26.0" layoutY="274.0" prefHeight="17.0" prefWidth="317.0" textFill="#ff0707">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
